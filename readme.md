@@ -24,7 +24,7 @@ Here is the code for the header we have.
     </div>
 
     <nav id="nav-items">
-        <a href="./index.html">Home</a>
+        <a href="./services.html">Services</a>
         <a href="./pages/about.html">About</a>
         <a href="./pages/contact.html">Contact</a>
     </nav>

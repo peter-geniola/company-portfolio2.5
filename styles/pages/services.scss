@@ -1,1 +1,27 @@
 @import "../../index";
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    article {
+        margin: 20px 0px;
+        border: 2px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        background-color: $primary-color;
+
+        section {
+            .blog-image {
+                width: 400px;
+                height: 35vw;
+                // align-items: center;
+                // width: clamp(300px, 40vw, 500px);
+            }
+        }
+    }
+}
